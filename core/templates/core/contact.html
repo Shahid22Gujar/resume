@@ -1,0 +1,70 @@
+{% extends "core/base.html" %} {% block title %} Contact {% endblock title %} {% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">Contact Us</h1>
+    <div class="row text-white mb-5">
+        <p class="max-atuo mb-5">
+            Do you have any question,please donot hesitate to ask any question. <br>I will come back to you within matter of hours to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary">Send</button>
+            </form>
+
+        </div>
+
+        <div class="col-sm-3 text-center mb-5">
+            <ul class="list-unstyled">
+                <li>
+                    <i class="fas fa-map-marker-alt mt-4 fa-2x i-color"></i>
+                    <p>Puraina,Khajura,Nepal</p>
+
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt mt-4 fa-2x i-color"></i>
+                    <p>+919116240211<br>+9779812552357</p>
+
+
+                </li>
+                <li>
+
+                    <i class="fab fa-whatsapp-square fa-3x i-color"></i>
+                    <p>+919116240211</p>
+
+                </li>
+                <li>
+                    <i class="fas fa-envelope mt-4 fa-3x i-color"></i>
+                    <p>shahidahimadgujar86@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="text-center">
+        <a href="#" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook i-color mr-3"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram i-color mr-3"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin i-color mr-3"></i></a>
+    </div>
+
+</div>
+
+
+{% endblock content %}
